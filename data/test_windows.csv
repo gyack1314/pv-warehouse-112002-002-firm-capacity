@@ -1,0 +1,4 @@
+test,assembly,start,end,minutes,evidence_deadline,firm_threshold
+T-A,west-expanded,17:10,17:30,10,17:35,32
+T-B,east,17:10,17:30,10,17:35,24
+T-C,upriver,17:10,17:30,10,17:38,22

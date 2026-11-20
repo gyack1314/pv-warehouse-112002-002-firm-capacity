@@ -1,0 +1,114 @@
+{
+  "pack": "firm-capacity",
+  "tables": {
+    "assemblies": {
+      "columns": [
+        "site",
+        "assembly",
+        "connection",
+        "from",
+        "to"
+      ],
+      "rows": 4,
+      "sha256": "fd43cf2c5006045547ce5e3ac2a16e0e60618d9c632ce0d7eea65edb6f7f05a7"
+    },
+    "test_windows": {
+      "columns": [
+        "test",
+        "assembly",
+        "start",
+        "end",
+        "minutes",
+        "evidence_deadline",
+        "firm_threshold"
+      ],
+      "rows": 3,
+      "sha256": "21238f56224150015c535723ad088e704cf3b4f91a799c81f6c4b284dcce6129"
+    },
+    "measurements": {
+      "columns": [
+        "test",
+        "assembly",
+        "at",
+        "mw",
+        "received_at",
+        "rev"
+      ],
+      "rows": 9,
+      "sha256": "5ec3753e4a595fa3358729705b0ddf3118daba6f92b93ca635fcd58cda8fe6c7"
+    },
+    "certifications": {
+      "columns": [
+        "certificate",
+        "test",
+        "assembly",
+        "start",
+        "end",
+        "max_mw",
+        "decided_at",
+        "previous_eligible"
+      ],
+      "rows": 3,
+      "sha256": "6b65711f235bebfde1deae412431148983343a1e6bb5cd315a6da4136c0ad67f"
+    },
+    "export_limits": {
+      "columns": [
+        "connection",
+        "start",
+        "end",
+        "mw",
+        "published_at",
+        "rev"
+      ],
+      "rows": 3,
+      "sha256": "529e899b8aec3ab19b161a7f49413d0e906ca5dfc46a3ff3120e4efacf1908f2"
+    },
+    "requests": {
+      "columns": [
+        "request",
+        "submission",
+        "assembly",
+        "received_at",
+        "hold_until",
+        "start",
+        "end",
+        "mw"
+      ],
+      "rows": 5,
+      "sha256": "167f3a0d00e98e611290773c8725419b6690182a26090fcb2655c71d12847003"
+    },
+    "market_receipts": {
+      "columns": [
+        "receipt",
+        "submission",
+        "at",
+        "decision",
+        "start",
+        "end",
+        "mw"
+      ],
+      "rows": 5,
+      "sha256": "aa86dc542486dec929643039b2e237201e3b88e0e6205ddcd3d31368d20da789"
+    }
+  },
+  "references": [
+    [
+      "requests",
+      "assembly",
+      "assemblies",
+      "assembly"
+    ],
+    [
+      "market_receipts",
+      "submission",
+      "requests",
+      "submission"
+    ],
+    [
+      "test_windows",
+      "assembly",
+      "assemblies",
+      "assembly"
+    ]
+  ]
+}

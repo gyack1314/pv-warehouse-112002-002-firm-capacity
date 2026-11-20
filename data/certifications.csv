@@ -1,0 +1,4 @@
+certificate,test,assembly,start,end,max_mw,decided_at,previous_eligible
+C-0,,west-old,00:00,23:00,30,00:00,false
+C-A,T-A,west-expanded,18:00,20:00,32,17:40,false
+C-B,T-B,east,18:00,20:00,24,17:40,false

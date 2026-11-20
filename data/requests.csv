@@ -1,0 +1,6 @@
+request,submission,assembly,received_at,hold_until,start,end,mw
+R1,R1-a,west-expanded,17:41,17:52,18:20,18:40,30
+R1,R1-a,west-expanded,17:41,17:52,18:40,18:50,25
+R2,R2-a,east,17:44,17:50,18:30,18:50,18
+R3,R3-a,east,17:54,18:07,18:30,18:50,16
+R4,R4-a,east,17:59,18:10,18:20,18:40,14

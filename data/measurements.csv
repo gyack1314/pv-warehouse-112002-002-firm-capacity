@@ -1,0 +1,10 @@
+test,assembly,at,mw,received_at,rev
+T-A,west-expanded,17:10,35,17:24,1
+T-A,west-expanded,17:20,33,17:26,1
+T-B,east,17:10,27,17:24,1
+T-B,east,17:20,25,17:26,1
+T-C,upriver,17:20,30,17:26,1
+T-A,west-expanded,17:20,27,17:56,2
+,west-expanded,18:30,18,18:43,1
+,east,18:30,19,18:42,1
+,east,18:40,21,18:53,1

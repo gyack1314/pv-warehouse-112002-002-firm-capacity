@@ -1,0 +1,5 @@
+site,assembly,connection,from,to
+P1,west-old,G9,00:00,17:00
+P1,west-expanded,G9,17:00,23:59
+P2,east,G9,00:00,23:59
+P3,upriver,G2,00:00,23:59
